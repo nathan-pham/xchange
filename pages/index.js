@@ -1,9 +1,13 @@
 import Root from "components/Root";
+import Wrapper from "components/Wrapper";
+import Header from "components/atoms/Header";
 
 const Home = () => {
     return (
         <Root>
-            <p>Hello World</p>
+            <Wrapper>
+                <Header />
+            </Wrapper>
         </Root>
     );
 };
